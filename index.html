@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="What can I do for FOSSASIA?">
     <meta name="author" content="Ralph Bean">
-    <link rel="shortcut icon" href="https://www.gnome.org/wp-content/themes/gnome-grass/images/favicon.png">
+    <link rel="shortcut icon" href="https://d1r7943vfkqpts.cloudfront.net/4bb1501dd9bc03de9e288914e44cfa77.png">
 
     <title>What can I do for FOSSASIA?</title>
 
     <link href="static/bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="static/themes/default/css/site.css" rel="stylesheet">
+    <link href="static/themes/fossasia/css/site.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.css">
     <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.grid.css">
     <link rel="stylesheet" type="text/css" href="../static/css/jquery.uls.lcd.css">
@@ -31,13 +31,13 @@
     "system-administration"
 ];
         var question_tree = {
-    "backlink": "Get me outta here!", 
+    "backlink": "I think I made a mistake", 
     "children": [
         {
             "backlink": "Get me outta here!", 
             "subtitle": "Making sure we focus on users.", 
             "title": "Design and Usability", 
-            "negative": "Doesn't sound like me", 
+            "negative": "No, thanks", 
             "affirmative": "Totally", 
             "href": "https://wiki.gnome.org/Design/Contribute", 
             "id": "design-and-usability"
@@ -48,7 +48,7 @@
             "title": "Writing", 
             "children": [
                 {
-                    "backlink": "I was wrong, take me back", 
+                    "backlink": "I think I made a mistake", 
                     "subtitle": "Want to help with the engagement team?", 
                     "title": "Articles", 
                     "negative": "Next, please", 
@@ -57,39 +57,39 @@
                     "id": "articles"
                 }, 
                 {
-                    "backlink": "Get me outta here!", 
+                    "backlink": "I think I made a mistake", 
                     "subtitle": "Get all the hidden features to the users!", 
                     "title": "Documentation", 
-                    "negative": "Nope, nope, nope", 
-                    "affirmative": "Tell me more", 
+                    "negative": "Absolutely not", 
+                    "affirmative": "Sounds awesome", 
                     "href": "https://wiki.gnome.org/DocumentationProject/Contributing", 
                     "id": "documentation"
                 }
             ], 
-            "negative": "Absolutely not", 
-            "affirmative": "That's me!", 
+            "negative": "Next, please", 
+            "affirmative": "Tell me more", 
             "id": "writing"
         }, 
         {
-            "backlink": "I was wrong, take me back", 
+            "backlink": "Get me outta here!", 
             "subtitle": "You could help translating!", 
             "title": "Languages", 
-            "negative": "Nope, nope, nope", 
+            "negative": "Absolutely not", 
             "affirmative": "Yes", 
             "href": "https://wiki.gnome.org/TranslationProject/ContributeTranslations", 
             "id": "languages"
         }, 
         {
-            "backlink": "I think I made a mistake", 
+            "backlink": "I was wrong, take me back", 
             "subtitle": "Get your hands dirty!", 
             "title": "Code", 
-            "negative": "Absolutely not", 
-            "affirmative": "That's me!", 
+            "negative": "No, thanks", 
+            "affirmative": "Yes", 
             "href": "https://wiki.gnome.org/Newcomers/", 
             "id": "code"
         }, 
         {
-            "backlink": "Get me outta here!", 
+            "backlink": "I was wrong, take me back", 
             "subtitle": "May GNOME never crash again", 
             "title": "Making Things Stable", 
             "children": [
@@ -106,29 +106,29 @@
                     "backlink": "I was wrong, take me back", 
                     "subtitle": "The QA team might be right for you.", 
                     "title": "Good Tests", 
-                    "negative": "Next, please", 
+                    "negative": "Doesn't sound like me", 
                     "affirmative": "Yes", 
                     "href": "https://wiki.gnome.org/GnomeQA", 
                     "id": "good-tests"
                 }
             ], 
-            "negative": "Nope", 
-            "affirmative": "Sounds awesome", 
+            "negative": "Not on your life", 
+            "affirmative": "Tell me more", 
             "id": "making-things-stable"
         }, 
         {
-            "backlink": "Get me outta here!", 
+            "backlink": "I think I made a mistake", 
             "subtitle": "Help us managing our infrastructure!", 
             "title": "System Administration", 
             "negative": "No, thanks", 
-            "affirmative": "Totally", 
+            "affirmative": "Tell me more", 
             "href": "https://wiki.gnome.org/Sysadmin/Apprentices", 
             "id": "system-administration"
         }
     ], 
-    "negative": "No, thanks", 
-    "affirmative": "Sure", 
-    "segue1": "Want to help FOSSASIA?", 
+    "negative": "Nope, nope, nope", 
+    "affirmative": "Yes", 
+    "segue1": "Want to help GNOME?", 
     "segue2": "First tell us what you like!", 
     "id": "foo"
 };
@@ -189,7 +189,7 @@
 
             <div id="design-and-usability" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -204,7 +204,7 @@
                 </p>
 
                 <p class="lead">
-                  <a data-next="writing" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Doesn't sound like me</a>
+                  <a data-next="writing" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> No, thanks</a>
                 </p>
             </div>
 
@@ -214,7 +214,7 @@
 
             <div id="writing" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -226,11 +226,11 @@
                 </span>
               </div>
                 <p class="lead">
-                  <a data-next="articles" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> That's me!</a>
+                  <a data-next="articles" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Tell me more</a>
 
 
                 <p class="lead">
-                  <a data-next="languages" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Absolutely not</a>
+                  <a data-next="languages" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Next, please</a>
                 </p>
             </div>
 
@@ -254,7 +254,7 @@
                   <a data-next="documentation" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Next, please</a>
                 </p>
               <p class="lead">
-                <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> I was wrong, take me back</a>
+                <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> I think I made a mistake</a>
               </p>
             </div>
 
@@ -273,14 +273,14 @@
                   <p class="subtitle"><span>Get all the hidden features to the users!</span></p>
                 </span>
               </div>
-                  <a href="https://wiki.gnome.org/DocumentationProject/Contributing" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Tell me more</a>
+                  <a href="https://wiki.gnome.org/DocumentationProject/Contributing" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Sounds awesome</a>
                 </p>
 
                 <p class="lead">
-                  <a data-next="articles" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Nope, nope, nope</a>
+                  <a data-next="articles" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Absolutely not</a>
                 </p>
               <p class="lead">
-                <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> Get me outta here!</a>
+                <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> I think I made a mistake</a>
               </p>
             </div>
 
@@ -292,7 +292,7 @@
 
             <div id="languages" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -307,7 +307,7 @@
                 </p>
 
                 <p class="lead">
-                  <a data-next="code" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Nope, nope, nope</a>
+                  <a data-next="code" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Absolutely not</a>
                 </p>
             </div>
 
@@ -317,7 +317,7 @@
 
             <div id="code" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -328,11 +328,11 @@
                   <p class="subtitle"><span>Get your hands dirty!</span></p>
                 </span>
               </div>
-                  <a href="https://wiki.gnome.org/Newcomers/" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> That's me!</a>
+                  <a href="https://wiki.gnome.org/Newcomers/" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Yes</a>
                 </p>
 
                 <p class="lead">
-                  <a data-next="making-things-stable" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Absolutely not</a>
+                  <a data-next="making-things-stable" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> No, thanks</a>
                 </p>
             </div>
 
@@ -342,7 +342,7 @@
 
             <div id="making-things-stable" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -354,11 +354,11 @@
                 </span>
               </div>
                 <p class="lead">
-                  <a data-next="fixing-bugs" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Sounds awesome</a>
+                  <a data-next="fixing-bugs" class="yes btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Tell me more</a>
 
 
                 <p class="lead">
-                  <a data-next="system-administration" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Nope</a>
+                  <a data-next="system-administration" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Not on your life</a>
                 </p>
             </div>
 
@@ -405,7 +405,7 @@
                 </p>
 
                 <p class="lead">
-                  <a data-next="fixing-bugs" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Next, please</a>
+                  <a data-next="fixing-bugs" class="nope btn btn-lg btn-danger"><span class="glyphicon glyphicon-remove-sign"></span> Doesn't sound like me</a>
                 </p>
               <p class="lead">
                 <a class="back btn btn-lg btn-warning"><span class="glyphicon glyphicon-circle-arrow-left"></span> I was wrong, take me back</a>
@@ -420,7 +420,7 @@
 
             <div id="system-administration" class="cover hidden">
 
-              <p class="segue1">Want to help FOSSASIA?</p>
+              <p class="segue1">Want to help GNOME?</p>
 
               <p class="segue2">First tell us what you like!</p>
 
@@ -431,7 +431,7 @@
                   <p class="subtitle"><span>Help us managing our infrastructure!</span></p>
                 </span>
               </div>
-                  <a href="https://wiki.gnome.org/Sysadmin/Apprentices" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Totally</a>
+                  <a href="https://wiki.gnome.org/Sysadmin/Apprentices" target="_blank" class="btn btn-lg btn-success"><span class="glyphicon glyphicon-ok-sign"></span> Tell me more</a>
                 </p>
 
                 <p class="lead">
